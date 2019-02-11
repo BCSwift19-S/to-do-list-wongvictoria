@@ -98,7 +98,11 @@
                         <barButtonItem title="Item" id="bNQ-Ma-Tb6"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="To Do List" id="pjg-fc-ZfD">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="pr7-qn-G6q"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="pr7-qn-G6q">
+                            <connections>
+                                <action selector="editBarButtonPressed:" destination="BYZ-38-t0r" id="lzP-Rf-1YE"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="1ml-qc-rCo">
                             <connections>
                                 <segue destination="Hqp-0Y-bs0" kind="presentation" identifier="AddItem" id="kaK-I1-k27"/>
@@ -107,6 +111,8 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="addBarButton" destination="1ml-qc-rCo" id="puI-eY-lED"/>
+                        <outlet property="editBarButton" destination="pr7-qn-G6q" id="eh3-fZ-ZZ1"/>
                         <outlet property="tableView" destination="09J-dX-yqx" id="Hxh-dz-Q7i"/>
                     </connections>
                 </viewController>
