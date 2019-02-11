@@ -12,6 +12,7 @@
 		B5A6A44D2211532F0001FE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A44B2211532F0001FE90 /* Main.storyboard */; };
 		B5A6A44F221153350001FE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A44E221153350001FE90 /* Assets.xcassets */; };
 		B5A6A452221153360001FE90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A450221153360001FE90 /* LaunchScreen.storyboard */; };
+		B5A6A45A221165660001FE90 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A459221165660001FE90 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B5A6A44E221153350001FE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5A6A451221153360001FE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5A6A453221153360001FE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A6A459221165660001FE90 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B5A6A4472211532F0001FE90 /* AppDelegate.swift */,
 				B5A6A4492211532F0001FE90 /* ViewController.swift */,
 				B5A6A44B2211532F0001FE90 /* Main.storyboard */,
+				B5A6A459221165660001FE90 /* DetailViewController.swift */,
 				B5A6A44E221153350001FE90 /* Assets.xcassets */,
 				B5A6A450221153360001FE90 /* LaunchScreen.storyboard */,
 				B5A6A453221153360001FE90 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A6A45A221165660001FE90 /* DetailViewController.swift in Sources */,
 				B5A6A44A2211532F0001FE90 /* ViewController.swift in Sources */,
 				B5A6A4482211532F0001FE90 /* AppDelegate.swift in Sources */,
 			);
